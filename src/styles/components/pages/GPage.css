@@ -1,0 +1,83 @@
+
+.contenedorGP{
+    display: flex;
+    margin: auto;
+    width: 90%;
+    margin-bottom: 60px;
+}
+
+.trio{
+    margin-top: 80px;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    justify-content: space-around;
+    display: inline-flex;
+}
+
+.duo{
+    margin-top: 80px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+    display: inline-flex;
+}
+
+.individual{
+    margin-top: 80px;
+    margin-bottom: 80px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+    display: inline-flex;
+}
+
+.gpind:hover{
+    transform: scale(1.04);
+}
+
+.gpind{
+    background-color: white;
+    border: 2px solid #333333;
+    border-radius: 5px;
+    box-shadow: 20px 20px 10px #333333;
+    padding: 30px;
+    height: 350px;
+    width: 300px;
+    transition: all 0.5s ease;
+}
+
+li{
+    list-style: none;
+    font-size:large;
+    margin-bottom: 25px;
+    display: flex;
+    justify-content: center;
+    border-radius: 5px;
+}
+
+.imGP{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: scale(0.8);
+}
+
+.txtgp{
+    margin-top: 10px;
+    font-size:large;
+}
+
+.botongp{
+    position: relative;
+    left: -31px;
+    width: 300px;
+    height: 60px;
+    color: #E8E8E8;
+    background-color: #990100;
+    border: 2px solid #333333 ;
+    border-radius: 0px 0px 5px 5px;
+    
+}

@@ -1,0 +1,21 @@
+@import-normalize;
+
+a{
+  text-decoration: none;
+  color: #333333;
+  transition: all 0.2s ease;
+}
+
+body{
+  background-color: #F6F6F6;
+}
+
+p span{
+  font-weight: bolder;
+}
+
+main{
+  background-image: url("/src/imageback/fondo.jpg");
+  background-size: 100% 100%;
+  background-attachment: fixed;
+}

@@ -1,0 +1,66 @@
+.contcontacto{
+    display: flex;
+    margin: auto;
+    width: 700px;
+    height: 550px;
+    align-items: center;
+    justify-content: center;
+    margin-top: -20px;
+    border-radius: 5px;
+    padding-top: -20px;
+    /* background-color: #990100; */
+    
+}
+
+.formu{
+    margin-bottom: 10px ;
+}
+
+.botonform{
+    display: flex;
+    position: relative;
+    top: -20px;
+    margin: auto;
+    background-color: #333333;
+    border: 1px solid #333333;
+    margin-bottom: 10px;
+
+}
+
+.botonform:hover{
+    background-color: #990100;
+    color: #E8E8E8;
+    border: #333333;
+    transform: scale(1.1);
+    transition: 0.5s;
+    border: 1px solid #333333
+}
+
+.superiorcontacto{
+    display: flex;
+    margin-top: 20px;
+    padding: 10px;
+    justify-content: center;
+    border: 1px solid #990100;
+    border-radius: 5px;
+}
+
+.cajacontacto{
+    margin: auto;
+    justify-content: center;
+    display: flex;
+    width: 700px;
+    
+}
+
+.mensajecontacto{
+    height: 30px;
+    width: 150px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    color: #990100;
+    left: 250px;
+    top: -175px;
+    box-sizing: border-box;
+}
